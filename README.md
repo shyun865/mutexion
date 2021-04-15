@@ -50,6 +50,11 @@ Then, by running the following command, you can recover `$HOME/mutexion_reposito
 $ mutexion/minigzip -d ./samples/addressbook_contact.html.nomarkers.gz
 ```
 
+# Authors
+- Sangwon Hyun (shyun@mju.ac.kr), Myongji University
+- Taegeun Moon (taegeun@skku.edu), Sungkyunkwan University
+- Hyoungshick Kim (hyoung@skku.edu), Sungkyunkwan University
+
 
 
 
