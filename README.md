@@ -28,7 +28,7 @@ $ mutexion/markers_to_brs ./samples/addressbook_contact.html
 
 Running the above command will generate 3 files:
 
-- `$HOME/mutexion_repository/samples/addressbook_contact.html.nomarkers`, the resulting file after removing the taint markers from `addressbook_contact.html`
+- `$HOME/mutexion_repository/samples/addressbook_contact.html.nomarkers`, the resulting file after parsing and removing the taint markers from `addressbook_contact.html`
 - `$HOME/mutexion_repository/brs_input` containing the `nextUserInput[]` array in the compression algorithm pseudocode
 - `$HOME/mutexion_repository/brs_secret` containing the `nextSecret[]` array in the compression algorithm pseudocode
 
