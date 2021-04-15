@@ -9,7 +9,7 @@ We implemented the Mutexion compressor based on [zlib 1.2.11](https://github.com
 
 The following instructions assume that this repository has been cloned into the `$HOME/mutexion_repository` directory.
 
-We tested these instructions on 64-bit Ubuntu 20.04 LTS with the build-essential package (including `gcc`, `make`, etc.) installed.
+We tested these instructions on 64-bit Ubuntu 20.04 LTS with the `build-essential` package (including `gcc`, `make`, etc.) installed.
 
 To build the executables, run the following command inside the `$HOME/mutexion_repository/mutexion` directory:
 
@@ -28,7 +28,7 @@ $ mutexion/markers_to_brs ./samples/addressbook_contact.html
 
 Running the above command will generate 3 files:
 
-- `$HOME/mutexion_repository/samples/addressbook_contact.html.nomarkers`
+- `$HOME/mutexion_repository/samples/addressbook_contact.html.nomarkers`, the resulting file after removing the taint markers from `addressbook_contact.html`
 - `$HOME/mutexion_repository/brs_input` containing the `nextUserInput[]` array in the compression algorithm pseudocode
 - `$HOME/mutexion_repository/brs_secret` containing the `nextSecret[]` array in the compression algorithm pseudocode
 
